@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 const PORT = 8000;
 
-const searchQuery = 'laptop'; // Specify the search query here
+const searchQuery = 'laptop'; 
 const url = `https://www.amazon.com/s?k=${encodeURIComponent(searchQuery)}`;
 
 axios.get(url)
